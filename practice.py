@@ -12,15 +12,6 @@ def max2(a, b, c):
     else:
         return c
 
-# külön feladat
-
-def min(a, b, c):
-    if a < b and a < c:
-        return a
-    elif b < a and b < c:
-        return b
-    else:
-        return c
 
 
 def length(list):
@@ -36,6 +27,9 @@ def wovel(a):
             return True
     return False
 
+def translate(a):
+    consonant = ["t, h, s, f, n"]
+    vowel
 
 
 def main():
