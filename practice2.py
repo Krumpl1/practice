@@ -30,9 +30,9 @@ def max(a, b, c):
 
 #4-es feladat: osztható 3 v 5
 def ratio(x):
-    if x // 5:
+    if x % 3 == 0:
         return True
-    elif x // 3:
+    elif x % 5 == 0:
         return True
     else:
         return False
@@ -53,7 +53,7 @@ def main():
     print(min(20, 35, 29))
     print(max(7, 18, 9))
     #print(value(63))
-    print(ratio(44))
+    print(ratio(15))
     #print(even(6, 8, 10))
 
 if __name__ == "__main__":
