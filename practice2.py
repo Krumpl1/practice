@@ -47,8 +47,12 @@ def even(a, b, c):
     else:
         return False
 
+# #7-es feladat: 2 szó és az ABC sorrend
+# def alph(tojas, sajtkrem)
+#     if word1 > word2:
+#         return
 
-
+#9-es feladat: ker 2 poz szamot
 def main():
     print(min(20, 35, 29))
     print(max(7, 18, 9))
