@@ -40,12 +40,12 @@ def ratio(x):
 #5-ös feladat: 3 szám közül bármelyik 2 összege egyenlő a harmadik szám közül fingom sincs
 #def sum(a, b, c)
 
-# #6-os feladat: 3 szám közül mind a 3 szám páros-e
-# def even(a, b, c):
-#     if even % 2:
-#         return True
-#     else:
-#         return False
+#6-os feladat: 3 szám közül mind a 3 szám páros-e
+def even(a, b, c):
+    if a % 2 == 0 and b % 2 == 0 and c % 2 == 0:
+        return True
+    else:
+        return False
 
 
 
@@ -54,7 +54,7 @@ def main():
     print(max(7, 18, 9))
     #print(value(63))
     print(ratio(15))
-    #print(even(6, 8, 10))
+    print(even(2, 8, 14))
 
 if __name__ == "__main__":
     main()
